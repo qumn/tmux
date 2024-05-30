@@ -287,7 +287,8 @@ key_string_lookup_string(const char *string)
 	    strchr(other, key) == NULL &&
 	    key != 9 &&
 	    key != 13 &&
-	    key != 27) {
+	    key != 27 &&
+      key != 105) {
 		if (key >= 97 && key <= 122)
 			key -= 96;
 		else if (key >= 64 && key <= 95)
